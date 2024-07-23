@@ -1,2 +1,2 @@
 # WIDkeyboard
-An task given by WID on DOM manipulation and event listeners.
+A task given by WID (Women in DEFI) on DOM manipulation and event listeners.
