@@ -15,40 +15,52 @@ const smallKey4 = document.getElementById("smallkey4");
 const keySound = document.getElementById("sound");
 
 bigKey.addEventListener('click', () =>{
-    keySound.play("./audio/key01.mp3");
+    keySound.play();
+    keySound.currentTime = 0;
 });
 bigKey1.addEventListener("click", () => {
-  keySound.play("./audio/key02.mp3");
+  keySound.play();
+  keySound.currentTime = 1;
 });
 bigKey2.addEventListener("click", () => {
-  keySound.play("./audio/key03.mp3");
+  keySound.play();
+  keySound.currentTime = 2;
 });
 bigKey3.addEventListener("click", () => {
-  keySound.play("./audio/key04.mp3");
+  keySound.play();
+  keySound.currentTime = 3;
 });
 bigKey4.addEventListener("click", () => {
-  keySound.play("./audio/key05.mp3");
+  keySound.play();
+  keySound.currentTime = 4;
 });
 bigKey5.addEventListener("click", () => {
-  keySound.play("./audio/key06.mp3");
+  keySound.play();
+  keySound.currentTime = 5;
 });
 bigKey6.addEventListener("click", () => {
-  keySound.play("./audio/key07.mp3");
+  keySound.play();
+  keySound.currentTime = 6;
 });
 smallKey.addEventListener("click", () => {
-  keySound.play("./audio/key08.mp3");
+  keySound.play();
+  keySound.currentTime = 7;
 });
 smallKey1.addEventListener("click", () => {
-  keySound.play("./audio/key09.mp3");
+  keySound.play();
+  keySound.currentTime = 8;
 });
 smallKey2.addEventListener("click", () => {
-  keySound.play("./audio/key10.mp3");
+  keySound.play();
+  keySound.currentTime = 9;
 });
 smallKey3.addEventListener("click", () => {
-  keySound.play("./audio/key11.mp3");
+  keySound.play();
+  keySound.currentTime = 10;
 });
 smallKey4.addEventListener("click", () => {
-  keySound.play("./audio/key12.mp3");
+  keySound.play();
+  keySound.currentTime = 11;
 });
 
 // const keys = [bigKey, bigKey1, bigKey2, bigKey3, bigKey4, bigKey5, bigKey6, smallKey,smallKey1, smallKey2, smallKey3, smallKey4];
